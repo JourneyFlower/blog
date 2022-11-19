@@ -30,7 +30,7 @@ jobs:
         env:
          TZ: Asia/Shanghai
         run: |
-         cd ./vitepress/dist
+         cd vuepress/dist
          git config --global init.defaultBranch master
          git init
          git config user.name "JourneyFlower"
