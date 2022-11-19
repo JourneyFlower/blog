@@ -44,5 +44,5 @@ jobs:
          git config user.email "${{ secrets.GIT_EMAIL }}"
          git add .
          git commit -m "Deploying to blog-pages from @ $GITHUB_SHA in $(date +"%Y年%m月%d日 %T %Z")"
-         git push -f https://JourneyFlower:${{ secrets.ACCESS_TOKEN }}@github.com/JourneyFlower/blog.git main:gh-pages
+         git push -f https://JourneyFlower:${{ secrets.ACCESS_TOKEN }}@github.com/JourneyFlower/blog.git main:blog-pages
          cd - 
