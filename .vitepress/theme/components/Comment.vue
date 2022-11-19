@@ -20,6 +20,7 @@ export default {
       admin: ['JourneyFlower'],
       //githubID: 'JourneyFlower',
       id: decodeURI(window.location.pathname),
+      proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token',//避免跨域
       language: 'zh-CN',
       distractionFreeMode: true
     };
