@@ -36,7 +36,7 @@ jobs:
         env:
          TZ: Asia/Shanghai
         run: |
-         cd docs/.vitepress/dist
+         cd .vitepress/dist
          git config --global init.defaultBranch main
          git config --global --add safe.directory "*"
          git init
