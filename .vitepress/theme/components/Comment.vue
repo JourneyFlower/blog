@@ -16,8 +16,8 @@ export default {
       clientSecret: "66cfc14c7355e1d51d3b29122e2a47c77407c41e",
       // 评论项目名
       repo: 'blog-comments',
-      owner: 'Journey&Flower',
-      admin: ['Journey&Flower'],
+      owner: 'JourneyFlower',
+      admin: ['JourneyFlower'],
       githubID: 'JourneyFlower',
       id: decodeURI(window.location.pathname),
       language: 'zh-CN',
