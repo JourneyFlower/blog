@@ -70,7 +70,7 @@ import SideBar from "./components/SideBar.vue";
 import Page from "./components/Page.vue";
 import Card from "../theme/components/Card.vue";
 import headImg from "../images/t.png";
-import codeImg from "../images/mycode.jpg";
+import codeImg from "../images/mycode.png";
 
 import {
   useRoute,
@@ -116,9 +116,9 @@ export default {
           },
         ],
         nickName: "Journey&Flower",
-        skill: ["👹 日语", "🖋️ 练字", "🍵 喝茶"],
+        skill: ["🖋️ 学习", "🔅 放松", "🍵 喝茶"],
         synopsis:
-          "19年毕业的程序媛，目前在巩固前端基础，简单的事情重复做，重复的事情用心做。",
+          "18年毕业的程序猿，不知不觉转成全栈了，简单的事情重复做，重复的事情用心做。",
       },
     };
   },
