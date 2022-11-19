@@ -7,7 +7,7 @@ export default {
   name: "blog-comments",
   mounted() {
     const commentConfig = {
-      //https://github.com/settings/applications/new
+      //https://github.com/settings/applications/new 
       // 是否开启
       enable: true,
       // clientID
