@@ -7,17 +7,18 @@ export default {
   name: "blog-comments",
   mounted() {
     const commentConfig = {
+      //https://github.com/settings/applications/new
       // 是否开启
       enable: true,
       // clientID
-      clientID: "a8296833d44633072517",
+      clientID: "60361cd0303751afd7fe",
       // clientSecret
-      clientSecret: "8af7efce84642c54ce9e6206fd1da2b01952a3d1",
+      clientSecret: "66cfc14c7355e1d51d3b29122e2a47c77407c41e",
       // 评论项目名
       repo: 'blog-comments',
       owner: 'Journey&Flower',
       admin: ['Journey&Flower'],
-      githubID: 'Journey&Flower',
+      githubID: 'JourneyFlower',
       id: decodeURI(window.location.pathname),
       language: 'zh-CN',
       distractionFreeMode: true
