@@ -18,7 +18,7 @@ export default {
       repo: 'blog-comments',
       owner: 'JourneyFlower',
       admin: ['JourneyFlower'],
-      githubID: 'JourneyFlower',
+      //githubID: 'JourneyFlower',
       id: decodeURI(window.location.pathname),
       language: 'zh-CN',
       distractionFreeMode: true
