@@ -2,12 +2,12 @@
 
 ## 效果预览
 
-https://jexlau.github.io/blog/
+https://JourneyFlower.github.io/blog/
 
 ## 安装
 
 ```bash
-git clone https://github.com/JexLau/blog.git
+git clone https://github.com/JourneyFlower/blog.git
 cd blog
 
 # 安装依赖

@@ -111,11 +111,11 @@ export default {
           },
           {
             icon: "icon-github",
-            link: "https://github.com/jexlau",
+            link: "https://github.com/JourneyFlower",
             event: false,
           },
         ],
-        nickName: "纪年",
+        nickName: "Journey&Flower",
         skill: ["👹 日语", "🖋️ 练字", "🍵 喝茶"],
         synopsis:
           "19年毕业的程序媛，目前在巩固前端基础，简单的事情重复做，重复的事情用心做。",
@@ -255,7 +255,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 30%;
-  background-image: url("../images/bg.jpg");
+  background-image: url('../images/bg.jpg');
   height: 450px;
   position: relative;
   overflow: hidden;

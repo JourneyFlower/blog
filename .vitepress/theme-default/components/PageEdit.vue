@@ -7,11 +7,11 @@
     </footer>
     <p class="platform">
       以上皆为
-      <a href="javascript:;">纪年</a> 文章发布平台
+      <a href="javascript:;">Journey&Flower</a> 文章发布平台
     </p>
     <p class="platform">
       Copyright &copy; 2020-2021
-      <a href="https://github.com/jexlau">@JexLau</a>
+      <a href="https://github.com/JourneyFlower">@Journey&Flower</a>
     </p>
   </div>
 </template>
