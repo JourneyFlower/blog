@@ -30,7 +30,9 @@ jobs:
         env:
          TZ: Asia/Shanghai
         run: |
-         cd .vitepress/dist         
+         cd .vitepress/dist
+         git config --global init.defaultBranch master
+         git config --global --add safe.directory "*"
          git init
          git config user.name "JourneyFlower"
          git config user.email "${{ secrets.GIT_EMAIL }}"
