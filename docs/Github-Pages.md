@@ -219,7 +219,7 @@ secrets.ACCESS_TOKEN 需要自己先创建，然后与GIT_EMAIL一同配置，�
 
 配置 `secrets.GIT_EMAIL` 和 `secrets.ACCESS_TOKEN`(这个在上图生成好后，会出现，可以直接复制一下)
 
-![image-20221120150900867](20221120002.gif)
+![image-20221120150900867](./20221120002.gif)
 
 `ACCESS_TOKEN`我这里随便填写的，大家填 `ACCESS_TOKEN` 记得填写自己创建的那个 [Personal Access Tokens](https://github.com/settings/tokens)
 
