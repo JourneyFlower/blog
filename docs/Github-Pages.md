@@ -1,14 +1,11 @@
 ---
-date: 2021-09-02
+date: 2022-11-19
 title: Journey&Flower |【第五期】在Github上搭建个人博客
 tags:
   - 博客
   - Github-Pages
 describe: 在Github上搭建个人博客 申请博客 gitee.io
 ---
-
-> 【瘦虎】在GitHub上使用vitepress快速搭建博客：https://juejin.cn/post/7035473521480302629
->
 
 - 下载vitepress模板 
 - 创建自己的博客仓库
