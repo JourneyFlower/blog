@@ -58,6 +58,9 @@ jobs:
         
       - name: Build My Blog
         run: yarn run build
+        
+      - name: echo test
+        run: echo git push -f https://JourneyFlower:${{ secrets.ACCESS_TOKEN }}@github.com/JourneyFlower/blog.git main:blog-pages
       
       - name: Deploy to Pages
         env:
