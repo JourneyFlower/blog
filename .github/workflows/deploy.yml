@@ -22,21 +22,25 @@ jobs:
         uses: actions/setup-node@main
         with:
           node-version:  ${{ matrix.node }}
-      # - name: Install dependencies
-      #   run: npm install
-      # - name: npm audit fix
-      #   run: npm audit fix       
-      # - name: Use yarn create vlib
-      #   run: yarn create vlib
-      # - name: Build My Blog
-      #   run: npm run build
 
-      # https://classic.yarnpkg.com/en/docs/cli/install
+      #第一种方式打包
       - name: Install dependencies
-        run: yarn install --verbose
-      #  run: yarn install --audit
+        run: npm install
+      - name: npm audit fix
+        run: npm audit fix       
+      - name: Use yarn create vlib
+        run: yarn create vlib
       - name: Build My Blog
-        run: yarn run build
+        run: npm run build
+
+      #第二种方式打包
+      # https://classic.yarnpkg.com/en/docs/cli/install
+      #- name: Install dependencies
+      #  run: yarn install --verbose
+      #  run: yarn install --audit
+      #- name: Build My Blog
+      #  run: yarn run build
+      
       - name: Deploy to Pages
         env:
          TZ: Asia/Shanghai
