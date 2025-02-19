@@ -51,7 +51,7 @@ jobs:
         run: yarn config list
         
       - name: Install dependencies
-        run: yarn install --force --audit --verbose
+        run: yarn install --registry=https://registry.npmmirror.com --force --audit --verbose
         
       - name: Build My Blog
         run: yarn run build
