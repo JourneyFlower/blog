@@ -49,7 +49,11 @@ jobs:
         
       # - name: perpare edit registry
       #   run: yarn config set registry https://registry.npmmirror.com
-        
+
+      - name: updrage
+        run: yarn set version stable
+      - name: version
+        run: yarn --version 
       - name: perpare check config list
         run: yarn config list
         
