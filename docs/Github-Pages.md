@@ -328,6 +328,7 @@ export default {
 
 [纪年小姐姐](https://jexlau.github.io/blog/)
 
-<audio src="./REOL404notfound.mp3"></audio>
+<audio controls src="./REOL404notfound.mp3"></audio>
+
 
 <Comment/>
