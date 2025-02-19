@@ -46,7 +46,10 @@ jobs:
 
       - name: perpare cache clean
         run: yarn cache clean --all 
-
+        
+      # - name: perpare edit registry
+      #   run: yarn config set registry https://registry.npmmirror.com
+        
       - name: perpare check config list
         run: yarn config list
         
