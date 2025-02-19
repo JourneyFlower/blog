@@ -36,7 +36,7 @@ jobs:
       #第二种方式打包
       # https://classic.yarnpkg.com/en/docs/cli/install
       - name: perpare0 check config list
-        run: config list
+        run: yarn config list
         
       - name: perpare1 delete proxy
         run: yarn config delete proxy
@@ -48,7 +48,7 @@ jobs:
         run: yarn config get registry 
         
       - name: perpare3 check config list
-        run: config list
+        run: yarn config list
         
       - name: Install dependencies
         run: yarn install --audit --verbose
