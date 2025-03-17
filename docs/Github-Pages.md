@@ -310,8 +310,6 @@ export default {
 > 可维护仓库的人,可以填多个，以数组的形式
 > admin: ['JourneyFlower'],
 
-
-
 ## 7.安全
 
 ![image-20221120162352513](./image-20221120162352513.png)
